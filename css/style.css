@@ -1,0 +1,36 @@
+body{
+    background-color: #4d738abf;
+}
+ul {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.list-group-item {
+    display: inline-block;
+}
+
+#list {
+    height: 200px;
+    background-color: #000000;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.pattern {
+    color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    list-style-type: none;
+    background-color: #6f966fa6;
+    font-size: 15px;
+}
+
+.contents {
+    margin-top: 20px;
+}
+
+#list.border {
+    border: 2px solid red;
+}
